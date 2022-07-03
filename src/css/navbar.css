@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6rem;
+  width: 100vw;
+  border-bottom: 1px solid #c4c4c4;
+}
+.favicon {
+  font-family: 'Oleo Script', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.nav {
+  display: none;
+}
+.btn--get-started {
+  display: none;
+}

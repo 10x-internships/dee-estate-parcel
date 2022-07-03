@@ -1,0 +1,25 @@
+.intro-img-container {
+  display: none;
+}
+.intro-text-container h1 {
+  color: var(--dark-blue-color);
+}
+.intro-text-container h4 {
+  margin-top: 1.25rem;
+  color: var(--text-desc-color);
+}
+.container-learn-more-btns {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0rem;
+}
+.learn-more-play-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 4rem;
+  background: #0f298b;
+}
