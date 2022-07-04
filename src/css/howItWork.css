@@ -1,0 +1,27 @@
+.production__title {
+  text-align: center;
+  color: var(--dark-blue-color);
+}
+.production__content {
+  text-align: center;
+  color: var(--text-desc-color);
+}
+.production__container-items {
+  margin: 3rem 0rem;
+}
+.production__container-item {
+  margin: 2rem 0rem;
+  padding: 15% 16%;
+  background-color: var(--white-color);
+}
+.production__container-content {
+  text-align: center;
+}
+
+.production-name-container {
+  margin: 1rem 0rem;
+}
+
+.production-name-text {
+  font-size: 2rem;
+}

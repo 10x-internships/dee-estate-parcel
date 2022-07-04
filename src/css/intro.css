@@ -4,7 +4,7 @@
 .intro-text-container h1 {
   color: var(--dark-blue-color);
 }
-.intro-text-container h4 {
+.intro-text-container .h4 {
   margin-top: 1.25rem;
   color: var(--text-desc-color);
 }
