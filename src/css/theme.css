@@ -1,0 +1,77 @@
+:root {
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --blue-color: #2549d3;
+  --dark-blue-color: #0f298b;
+  --background-color: #fafafa;
+  --text-desc-color: rgba(0, 0, 0, 0.81);
+  --btn-box-shadow: rgba(0, 0, 0, 0.1);
+  --search-container-box-shadow: rgba(37, 73, 211, 0.05);
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+  background-color: var(--background-color);
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-style: normal;
+  margin: 0rem;
+}
+.text-content {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 0rem;
+}
+a {
+  text-decoration: none;
+}
+.h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+.h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.25rem;
+}
+.h3 {
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+}
+.h4 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+.section {
+  margin: 8rem 1.5rem;
+}
+.btn {
+  padding: 0.75rem 1.75rem;
+  background: var(--blue-color);
+  box-shadow: 24px 24px 48px var(--btn-box-shadow);
+  border-radius: 10px;
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 31px;
+  border: none;
+  outline: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
