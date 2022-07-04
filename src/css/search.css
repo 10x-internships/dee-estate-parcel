@@ -1,0 +1,28 @@
+.search-container {
+  text-align: center;
+  background-color: var(--white-color);
+  margin: 0rem 1rem;
+  padding: 3rem 0rem;
+  border-radius: 1.75rem;
+}
+.dropdown {
+  margin-bottom: 1rem;
+}
+.dropdown-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.dropdown-text-title {
+  font-size: 1.5rem;
+  color: var(--dark-blue-color);
+}
+.dropdown-text-content {
+  font-size: 1.25rem;
+}
+.dropdown-text-content {
+  font-size: 1.25rem;
+  color: var(--black-color);
+  opacity: 0.5;
+}
