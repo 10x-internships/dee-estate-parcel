@@ -1,9 +1,7 @@
 .search-container {
-  /* width: fit-content; */
-  text-align: center;
   background-color: var(--white-color);
   margin: 0rem 1rem;
-  padding: 3rem 0rem;
+  padding: 2rem 3rem;
   border-radius: 1.75rem;
 }
 .dropdown {
@@ -11,7 +9,6 @@
 }
 .dropdown-title {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 0.5rem;
 }
@@ -30,9 +27,20 @@
 @media screen and (min-width: 768px) {
   .search-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     align-self: center;
     margin: 0;
+  }
+  .search-btn {
+    grid-column: 2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .search-container {
+    margin: 0rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
   .search-btn {
     grid-column: 2;

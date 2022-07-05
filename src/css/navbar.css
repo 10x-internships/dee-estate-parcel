@@ -30,7 +30,7 @@
   }
   .nav {
     display: flex;
-    gap: 15%;
+    gap: 3rem;
   }
   .btn--get-started {
     display: block;

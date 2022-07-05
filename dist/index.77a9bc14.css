@@ -211,6 +211,7 @@ a {
 }
 
 .btn {
+  height: fit-content;
   background: var(--blue-color);
   box-shadow: 12px 12px 12px var(--btn-box-shadow);
   color: var(--white-color);
@@ -285,7 +286,7 @@ a {
   }
 
   .nav {
-    gap: 15%;
+    gap: 3rem;
     display: flex;
   }
 
@@ -346,11 +347,10 @@ a {
 }
 
 .search-container {
-  text-align: center;
   background-color: var(--white-color);
   border-radius: 1.75rem;
   margin: 0 1rem;
-  padding: 3rem 0;
+  padding: 2rem 3rem;
 }
 
 .dropdown {
@@ -358,7 +358,6 @@ a {
 }
 
 .dropdown-title {
-  justify-content: center;
   align-items: center;
   gap: 0.5rem;
   display: flex;
@@ -377,10 +376,23 @@ a {
 
 @media screen and (min-width: 768px) {
   .search-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     align-self: center;
     margin: 0;
     display: grid;
+  }
+
+  .search-btn {
+    grid-column: 2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .search-container {
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 6rem;
+    display: flex;
   }
 
   .search-btn {
@@ -439,6 +451,19 @@ a {
 
   .production__container-content {
     margin: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section--production {
+    font-size: 2em;
+  }
+
+  .production__container-items {
+    width: 75rem;
+    gap: 1.5rem;
+    display: flex;
+    overflow-x: auto;
   }
 }
 
