@@ -6,6 +6,7 @@
   margin: 2rem 0rem;
 }
 .testimonials-desc {
+  text-align: center;
   color: var(--text-desc-color);
 }
 .container-testimonials {

@@ -2,7 +2,6 @@
   "name": "dee-estate-parcel",
   "version": "1.0.0",
   "source": "src/index.html",
-  "main": "index.js",
   "repository": "https://github.com/10x-internships/dee-estate-parcel.git",
   "author": "Bill-Fashion <66458634+Bill-Fashion@users.noreply.github.com>",
   "license": "MIT",
