@@ -1,0 +1,41 @@
+.testimonials-title {
+  text-align: center;
+  color: var(--dark-blue-color);
+}
+.testimonials-desc-container {
+  margin: 2rem 0rem;
+}
+.testimonials-desc {
+  color: var(--text-desc-color);
+}
+.container-testimonials {
+  padding: 1.75rem;
+  border-radius: 1rem;
+  background-color: var(--white-color);
+}
+.container-testimonials__inner {
+}
+.client-header-container {
+}
+.client-name-container {
+}
+.client-name-text {
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+.client-location {
+}
+.client-body-container {
+  margin-top: 1rem;
+}
+.client-body-content {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: var(--black-color);
+  opacity: 0.7;
+}
+.container-testimonials--properties {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

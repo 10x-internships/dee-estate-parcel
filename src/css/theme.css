@@ -61,6 +61,11 @@ a {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.h6 {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
 .section {
   margin: 8rem 1.5rem;
 }
