@@ -26,3 +26,29 @@
   line-height: 2rem;
   color: var(--black-color);
 }
+.container-specility-img {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .container-specility-img {
+    display: block;
+    width: 50%;
+  }
+  .container-specility-img img {
+    width: 100%;
+  }
+  .container-specility-contents {
+    width: 50%;
+  }
+  .section--specility {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .specility__container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+  }
+}

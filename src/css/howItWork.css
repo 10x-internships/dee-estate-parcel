@@ -25,3 +25,24 @@
 .production-name-text {
   font-size: 2rem;
 }
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+  .production__container-items {
+    display: flex;
+    width: 60rem;
+    overflow-x: auto;
+    gap: 1.5rem;
+  }
+  .production__container-item {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33.75rem;
+    width: 27.5rem;
+  }
+  .production__container-content {
+    margin: 0rem 3rem;
+  }
+}

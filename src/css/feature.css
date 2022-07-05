@@ -1,9 +1,11 @@
 .feature-title {
+  text-align: center;
   font-size: 2.5rem;
   line-height: 2rem;
   color: var(--dark-blue-color);
 }
 .feature-desc-container {
+  text-align: center;
   margin: 2rem 0rem;
 }
 .feature-desc {
@@ -20,6 +22,8 @@
   right: 0;
 }
 .container-feature {
+  width: fit-content;
+  height: fit-content;
   margin: 1.5rem 0rem;
   padding: 0.5rem 1rem;
   background-color: var(--white-color);
@@ -53,4 +57,20 @@
   font-size: 1.25rem;
   line-height: 1.5rem;
   color: var(--dark-blue-color);
+}
+@media screen and (min-width: 768px) {
+  .container-featured--properties {
+    width: 38em;
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-featured--properties {
+    width: 60em;
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+  }
 }

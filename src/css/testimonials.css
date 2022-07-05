@@ -10,21 +10,14 @@
   color: var(--text-desc-color);
 }
 .container-testimonials {
+  width: fit-content;
   padding: 1.75rem;
   border-radius: 1rem;
   background-color: var(--white-color);
 }
-.container-testimonials__inner {
-}
-.client-header-container {
-}
-.client-name-container {
-}
 .client-name-text {
   font-size: 2rem;
   line-height: 2.25rem;
-}
-.client-location {
 }
 .client-body-container {
   margin-top: 1rem;
@@ -39,4 +32,21 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+@media screen and (min-width: 768px) {
+  .container-testimonials--properties {
+    width: 38rem;
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-testimonials--properties {
+    width: 60rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+  }
 }
