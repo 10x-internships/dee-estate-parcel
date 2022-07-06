@@ -35,6 +35,13 @@
     grid-column: 2;
   }
 }
+@media screen and (min-width: 1024px) {
+  .search-btn {
+    grid-column: 2;
+    justify-self: center;
+    width: fit-content;
+  }
+}
 @media screen and (min-width: 1200px) {
   .search-container {
     margin: 0rem 6rem;

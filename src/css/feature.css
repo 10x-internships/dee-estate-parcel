@@ -22,7 +22,6 @@
   right: 0;
 }
 .container-feature {
-  width: fit-content;
   height: fit-content;
   margin: 1.5rem 0rem;
   padding: 0.5rem 1rem;
@@ -30,7 +29,9 @@
   border-bottom-left-radius: 3rem;
   border-top-right-radius: 3rem;
 }
-
+.container-feature__inner img {
+  width: 100%;
+}
 .container-product-details {
   display: flex;
   justify-content: space-between;
@@ -59,18 +60,78 @@
   color: var(--dark-blue-color);
 }
 @media screen and (min-width: 768px) {
+  .container-product-details {
+    align-items: center;
+    margin: 1rem 0;
+  }
+  .container-feature {
+    margin: 1.5rem 0rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--white-color);
+    border-bottom-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+  }
+
   .container-featured--properties {
-    width: 38em;
+    width: 100%;
     display: flex;
     gap: 2rem;
     overflow-x: auto;
   }
+  .product-title {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  .product-desc {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--black-color);
+    opacity: 0.8;
+  }
+  .product-type {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  .product-price {
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--dark-blue-color);
+  }
 }
 @media screen and (min-width: 1024px) {
   .container-featured--properties {
-    width: 60em;
+    width: 100%;
     display: flex;
     gap: 2rem;
     overflow-x: auto;
+  }
+  .product-title {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .product-desc {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: var(--black-color);
+    opacity: 0.8;
+  }
+  .product-type {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .product-price {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: var(--dark-blue-color);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-featured--properties {
+    width: 100%;
+    justify-content: space-between;
   }
 }

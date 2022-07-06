@@ -11,7 +11,6 @@
 
 body {
   font-family: 'Space Grotesk', sans-serif;
-  display: flex;
   overflow-x: hidden;
   background-color: var(--background-color);
 }
@@ -97,10 +96,27 @@ a {
   font-style: normal;
   color: var(--white-color);
 }
-
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
 @media screen and (min-width: 768px) {
   .section {
-    padding: 5rem 1.5rem;
-    margin: 0rem 5rem;
+    padding: 5rem 3rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 920px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 5rem 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
   }
 }

@@ -28,11 +28,32 @@
     display: flex;
     justify-content: space-around;
   }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
   .nav {
     display: flex;
     gap: 3rem;
+    align-items: center;
   }
   .btn--get-started {
     display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+}
+@media screen and (min-width: 1400px) {
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 }

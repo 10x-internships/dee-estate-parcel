@@ -46,14 +46,29 @@
     margin: 0rem 3rem;
   }
 }
+@media screen and (min-width: 1024px) {
+  .production__container-items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: auto;
+    gap: 1.5rem;
+  }
+}
 @media screen and (min-width: 1200px) {
   .section--production {
     font-size: 2em;
   }
   .production__container-items {
     display: flex;
-    width: 75rem;
+    justify-content: space-between;
+    width: 100%;
     overflow-x: auto;
     gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .production__container-items {
+    width: 100%;
   }
 }
